@@ -1,7 +1,3 @@
-Sure! Here’s a detailed GitHub README for your code editor project, covering the tech stack, setup process, and including a hosted link.
-
----
-
 # Ranjan's Code Editor
 
 Welcome to Ranjan's Code Editor! This is a simple yet powerful code editor built with modern web technologies, providing a seamless and responsive experience for writing and highlighting code in real-time.
