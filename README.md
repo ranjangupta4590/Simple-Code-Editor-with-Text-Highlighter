@@ -35,8 +35,8 @@ Follow these steps to set up the project locally.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/ranjangupta4590/ranjan-code-editor.git
-   cd ranjan-code-editor
+   https://github.com/ranjangupta4590/Simple-Code-Editor-with-Text-Highlighter.git
+   cd editor
    ```
 
 2. **Install Dependencies**
