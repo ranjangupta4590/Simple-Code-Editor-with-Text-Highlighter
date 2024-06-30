@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+Sure! Here’s a detailed GitHub README for your code editor project, covering the tech stack, setup process, and including a hosted link.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Ranjan's Code Editor
 
-In the project directory, you can run:
+Welcome to Ranjan's Code Editor! This is a simple yet powerful code editor built with modern web technologies, providing a seamless and responsive experience for writing and highlighting code in real-time.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo: [ranjan-code-editor.vercel.app](https://ranjan-code-editor.vercel.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces.
+- **Prism JS**: A lightweight and extensible syntax highlighter. [Prism JS](https://prismjs.com/)
+- **Prism React Renderer**: A React renderer for Prism. [Prism React Renderer](https://github.com/FormidableLabs/prism-react-renderer)
+- **CSS**: Custom CSS for styling the editor.
+- **Vercel**: Hosting platform for the live demo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Real-Time Syntax Highlighting**: As you type, the code is highlighted in real-time.
+- **Tab Key for Indentation**: Use the Tab key for indentation within the editor.
+- **Scroll Synchronization**: The input and highlighted output scroll together.
+- **Line Numbers**: Display line numbers for better code readability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to set up the project locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js (version 12 or later)
+- npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/ranjangupta4590/ranjan-code-editor.git
+   cd ranjan-code-editor
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install Dependencies**
 
-## Learn More
+   Using npm:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Or using yarn:
 
-### Code Splitting
+   ```bash
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Start the Development Server**
 
-### Analyzing the Bundle Size
+   Using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+   Or using yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   yarn start
+   ```
 
-### Advanced Configuration
+   The development server will start, and you can view the app at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Building for Production
 
-### Deployment
+To create an optimized production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Using npm:
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Or using yarn:
+
+```bash
+yarn build
+```
+
+The build artifacts will be stored in the `build/` directory.
+
+### Deploying to Vercel
+
+1. **Sign Up/Log In to Vercel**: [Vercel](https://vercel.com/)
+2. **Import Project**: Connect your GitHub repository to Vercel.
+3. **Deploy**: Follow the deployment instructions on Vercel's dashboard.
+
+The live demo is hosted at: [ranjan-code-editor.vercel.app](https://ranjan-code-editor.vercel.app)
+
+## Code Structure
+
+- `src/CodeEditor.js`: Main component for the code editor.
+- `src/CodeEditor.css`: Styles for the code editor.
+
+## Contributing
+
+Feel free to fork this repository and contribute by submitting a pull request. Contributions are always welcome!
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries or feedback, please contact [Ranjan Kumar](mailto:ranjangupta35558@gmail.com).
